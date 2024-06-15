@@ -52,7 +52,8 @@ body {
   align-items: center;
 }
 #nav img {
-  height: 60px;
+  height: 40px;
+  border-radius: 15px;
 }
 
 #nleft,
@@ -93,15 +94,23 @@ body {
   color: #fff;
 }
 #arealeft .elem {
+ position: relative;
   height: 9vw;
   overflow: hidden;
 }
 #arealeft .elem h1 {
+  position: absolute;
+  top: 100%;
+  left: 0;;
   line-height: 0.9;
   font-family: "Kajiro";
   color: #fff;
   font-weight: 200;
   font-size: 10vw;
+}
+#arealeft .elem h1:nth-child(1){
+  top: 0;
+
 }
 #arealeft button {
   padding: 0.8vw 3vw;
@@ -123,6 +132,7 @@ body {
   background-image: url(https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-1/440418988_2105742786490932_7233522864813244392_n.jpg?stp=dst-jpg_p160x160&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IrGBSqEZWDAQ7kNvgHE90By&_nc_ht=scontent.fbir1-1.fna&oh=00_AYDZJJZ8SpeMxs_cMckkeJXR0jTQ3JzGzpCRzrPx7sD3-w&oe=6672633C);
 background-size: cover;
 background-position: center;
+border-radius: 20px;
 }
 #arearight p:nth-child(3) {
   margin-bottom: 45px;
